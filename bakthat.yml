@@ -1,0 +1,12 @@
+default:
+  access_key: <YOUR_ACCESS_KEY>
+  secret_key: <YOUR_SECRET_KEY>
+  default_destination: glacier
+  s3_bucket: supera_bkp
+  glacier_vault: website_backup
+  region_name: us-east-1
+  rotation:
+    days: 14
+    first_week_day: 5
+    months: 6
+    weeks: 4
