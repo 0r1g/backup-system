@@ -9,7 +9,11 @@ $ bakthat configure
 Also, if you're using MySQL:
 
 ```
-$ mysql_config_editor set --login-path=local --host=localhost --user=localuser --password
+$ mysql_config_editor set \
+  --login-path=local \
+  --host=localhost \
+  --user=localuser \
+  --password
 ```
 
 To better understand the GFS backup rotation I recommend you to check this video: [https://www.youtube.com/watch?v=7oNlwQ46XS4](https://www.youtube.com/watch?v=7oNlwQ46XS4). In addition, there's a sample configuration file named .bakthat.yml.
